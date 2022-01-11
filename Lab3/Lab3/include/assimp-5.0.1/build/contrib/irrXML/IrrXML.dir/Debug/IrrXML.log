@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Christee/Desktop/local_repo/Lab3/Lab3/include/assimp-5.0.1/contrib/irrXML/CMakeLists.txt
+  irrXML.cpp
+C:\Users\Christee\Desktop\local_repo\Lab3\Lab3\include\assimp-5.0.1\contrib\irrXML\irrString.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  IrrXML.vcxproj -> C:\Users\Christee\Desktop\local_repo\Lab3\Lab3\include\assimp-5.0.1\build\contrib\irrXML\Debug\IrrXMLd.lib

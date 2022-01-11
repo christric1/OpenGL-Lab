@@ -1,0 +1,2 @@
+C:\Users\Christee\Desktop\local_repo\Lab3\Lab3\include\assimp-5.0.1\build\test\Debug\assimp-vc142-mtd.dll
+C:\Users\Christee\Desktop\local_repo\Lab3\Lab3\include\assimp-5.0.1\build\test\unit.dir\Debug\unit.vcxproj.CopyComplete

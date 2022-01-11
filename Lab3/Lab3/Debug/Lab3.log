@@ -1,0 +1,15 @@
+﻿  Animation.cpp
+C:\Users\Christee\Desktop\local_repo\OpenGL-Lab\Lab3\Lab3\include\assimp-5.0.1\include\assimp\defs.h(53,10): fatal error C1083: 無法開啟包含檔案: 'assimp/config.h': No such file or directory
+  Animator.cpp
+C:\Users\Christee\Desktop\local_repo\OpenGL-Lab\Lab3\Lab3\include\assimp-5.0.1\include\assimp\defs.h(53,10): fatal error C1083: 無法開啟包含檔案: 'assimp/config.h': No such file or directory
+  Bone.cpp
+C:\Users\Christee\Desktop\local_repo\OpenGL-Lab\Lab3\Lab3\include\assimp-5.0.1\include\assimp\defs.h(53,10): fatal error C1083: 無法開啟包含檔案: 'assimp/config.h': No such file or directory
+  main.cpp
+C:\Users\Christee\Desktop\local_repo\OpenGL-Lab\Lab3\Lab3\src\main.cpp(5,9): fatal error C1083: 無法開啟包含檔案: 'GLFW/glfw3.h': No such file or directory
+  Material.cpp
+  Mesh.cpp
+  Model.cpp
+C:\Users\Christee\Desktop\local_repo\OpenGL-Lab\Lab3\Lab3\include\assimp-5.0.1\include\assimp\defs.h(53,10): fatal error C1083: 無法開啟包含檔案: 'assimp/config.h': No such file or directory
+  Shader.cpp
+C:\Users\Christee\Desktop\local_repo\OpenGL-Lab\Lab3\Lab3\src\Shader.cpp(8,9): fatal error C1083: 無法開啟包含檔案: 'GLFW/glfw3.h': No such file or directory
+  正在產生程式碼...
