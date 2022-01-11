@@ -22,6 +22,18 @@
     <Image Include="textures\awesomeface.png">
       <Filter>資源檔</Filter>
     </Image>
+    <Image Include="textures\background.jpg">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="textures\block.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="textures\block_solid.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="textures\paddle.png">
+      <Filter>資源檔</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Game.cpp">
@@ -42,6 +54,12 @@
     <ClCompile Include="src\main.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameLevel.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Game.h">
@@ -60,6 +78,12 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="src\Texture.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameLevel.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,7 +1,14 @@
 #pragma once
+#include <vector>
+
+#define GLEW_STATIC
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
 
 #include "ResourceManager.h"
 #include "SpriteRenderer.h"
+#include "GameLevel.h"
+#include "GameObject.h"
 
 // Represents the current state of the game
 enum GameState {
@@ -10,9 +17,12 @@ enum GameState {
     GAME_WIN
 };
 
-// Game holds all game-related state and functionality.
-// Combines all game-related data into a single class for
-// easy access to each of the components and manageability.
+// Initial size of the player paddle
+const glm::vec2 PLAYER_SIZE(100, 20);
+
+// Initial velocity of the player paddle
+const GLfloat PLAYER_VELOCITY(500.0f);
+
 class Game
 {
 public:
@@ -21,8 +31,11 @@ public:
     bool Keys[1024];
     unsigned int Width, Height;
 
+    std::vector<GameLevel> Levels;
+    GLuint Level;
+
     // constructor/destructor
-    Game(unsigned int width, unsigned int height);
+    Game(GLuint width, GLuint height);
     ~Game();
 
     // initialize game state (load all shaders/textures/levels)
