@@ -60,6 +60,9 @@
     <ClCompile Include="src\GameLevel.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="src\BallObject.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Game.h">
@@ -84,6 +87,9 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="src\GameLevel.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BallObject.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

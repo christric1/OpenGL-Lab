@@ -30,6 +30,7 @@
     <Image Include="textures\paddle.png" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\BallObject.cpp" />
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\GameLevel.cpp" />
     <ClCompile Include="src\GameObject.cpp" />
@@ -40,6 +41,7 @@
     <ClCompile Include="src\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\BallObject.h" />
     <ClInclude Include="src\Game.h" />
     <ClInclude Include="src\GameLevel.h" />
     <ClInclude Include="src\GameObject.h" />
